@@ -32,7 +32,7 @@ public class ServiceApplication implements CommandLineRunner {
 		//PersonService personService=new PersonServiceImpl();
 		try {
 			addressService.getAddressByPersonId(2);
-			logger.debug("in manin"+personService.retrivePersonBySSN("267453231"));
+			logger.debug("in main"+personService.retrivePersonBySSN("267453231"));
 			}
 		catch (RuntimeException ex){
 			logger.error(ex.getMessage());
